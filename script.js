@@ -38,6 +38,7 @@ async function checkWeather(city) {
       background_video.src = "/Assets/clouds_720p.mp4";
       break;
     case "Clear":
+    case "Haze":
       weather_img.src = "/Assets/clear.png";
       background_video.src = "/Assets/sunny_1440p.mp4";
       break;
